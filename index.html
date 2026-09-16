@@ -3,49 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>تحويل وضغط الصور و PDF أونلاين مجاناً | Convert & Compress</title>
-<meta name="description" content="أداة مجانية لتحويل وضغط الصور و PDF: JPG، PNG، WEBP، BMP، PDF. ضغط بالحجم المستهدف، تغيير الحجم، تدوير — بدون تسجيل، خصوصية تامة.">
+<title>تحويل وضغط الصور والنصوص إلى PDF | Convert & Compress</title>
+<meta name="description" content="أداة مجانية لتحويل الصور والنصوص إلى PDF عالي الجودة، ضغط بالحجم المستهدف، دعم حتى 500 صفحة.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#e5322d">
 <link rel="canonical" href="https://lidenoniso3-ctrl.github.io/win/">
-<link rel="alternate" hreflang="ar" href="https://lidenoniso3-ctrl.github.io/win/?lang=ar">
-<link rel="alternate" hreflang="en" href="https://lidenoniso3-ctrl.github.io/win/?lang=en">
-<link rel="alternate" hreflang="x-default" href="https://lidenoniso3-ctrl.github.io/win/">
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="تحويل وضغط الصور و PDF مجاناً">
-<meta property="og:description" content="حوّل واضغط صورك بجودة احترافية داخل المتصفح.">
-<meta property="og:url" content="https://lidenoniso3-ctrl.github.io/win/">
-<meta property="og:locale" content="ar_AR">
-<meta property="og:locale:alternate" content="en_US">
-
-<meta name="twitter:card" content="summary_large_image">
-
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23e5322d'/><text x='50' y='68' font-size='60' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>⇄</text></svg>">
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": "Convert & Compress Image/PDF",
-  "url": "https://lidenoniso3-ctrl.github.io/win/",
-  "applicationCategory": "MultimediaApplication",
-  "operatingSystem": "Any (Web Browser)",
-  "inLanguage": ["ar", "en"],
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
-}
+{"@context":"https://schema.org","@type":"WebApplication","name":"Convert & Compress Image/Text/PDF","applicationCategory":"MultimediaApplication","operatingSystem":"Any (Web Browser)","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
 </script>
 
 <style>
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-  :root{
-    --primary:#e5322d;--primary-dark:#bd060a;--dark:#202028;--text:#47474f;
-    --muted:#707078;--border:#dcdce5;--bg:#f5f5fa;--white:#fff;
-    --radius:12px;--shadow:0 4px 24px rgba(22,22,22,.08);
-    --success:#16a34a;--warning:#d97706;
-  }
-  html{scroll-behavior:smooth}
+  :root{--primary:#e5322d;--primary-dark:#bd060a;--dark:#202028;--text:#47474f;--muted:#707078;--border:#dcdce5;--bg:#f5f5fa;--white:#fff;--radius:12px;--shadow:0 4px 24px rgba(22,22,22,.08);--success:#16a34a}
   body{font-family:-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans Arabic",sans-serif;background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased}
 
   header{background:var(--white);border-bottom:1px solid var(--border);padding:14px 24px;position:sticky;top:0;z-index:100}
@@ -54,7 +25,7 @@
   .logo-mark{width:32px;height:32px;background:var(--primary);border-radius:8px;display:grid;place-items:center;color:#fff;font-size:18px}
   .logo span{color:var(--primary)}
   .lang-switch{display:flex;gap:4px}
-  .lang-switch a{background:none;border:1px solid var(--border);padding:5px 12px;border-radius:6px;color:var(--muted);font-size:12px;text-decoration:none;font-weight:600;transition:all .15s}
+  .lang-switch a{background:none;border:1px solid var(--border);padding:5px 12px;border-radius:6px;color:var(--muted);font-size:12px;text-decoration:none;font-weight:600}
   .lang-switch a.active{background:var(--dark);color:#fff;border-color:var(--dark)}
 
   .hero{text-align:center;padding:40px 24px 16px}
@@ -63,6 +34,13 @@
   .hero p{font-size:clamp(14px,2vw,17px);color:var(--muted);max-width:720px;margin:0 auto}
 
   main{max-width:1100px;margin:0 auto;padding:24px}
+
+  /* ===== Input Tabs ===== */
+  .input-tabs{display:flex;gap:6px;background:var(--white);padding:6px;border-radius:12px;box-shadow:var(--shadow);margin-bottom:16px;max-width:420px}
+  .input-tab{flex:1;padding:10px 14px;border:none;background:transparent;border-radius:8px;font-weight:600;font-size:14px;cursor:pointer;color:var(--muted);transition:all .15s;display:flex;align-items:center;justify-content:center;gap:6px}
+  .input-tab:hover{color:var(--dark)}
+  .input-tab.active{background:var(--primary);color:#fff}
+  .input-tab svg{width:16px;height:16px}
 
   .dropzone{background:var(--white);border:2px dashed var(--border);border-radius:var(--radius);padding:48px 24px;text-align:center;cursor:pointer;transition:all .2s}
   .dropzone:hover,.dropzone.dragover{border-color:var(--primary);background:#fff8f8;transform:translateY(-2px)}
@@ -73,10 +51,41 @@
   .dropzone .btn-select{display:inline-block;margin-top:20px;background:var(--primary);color:#fff;padding:12px 32px;border-radius:8px;font-weight:600;font-size:15px;border:none;cursor:pointer;transition:background .15s}
   .dropzone .btn-select:hover{background:var(--primary-dark)}
 
+  /* ===== Text Input ===== */
+  .text-input-card{background:var(--white);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
+  .text-input-card h3{font-size:15px;color:var(--dark);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+  .textarea{width:100%;min-height:200px;padding:14px;border:1px solid var(--border);border-radius:8px;font-family:inherit;font-size:15px;resize:vertical;color:var(--text);background:var(--white);line-height:1.7}
+  .textarea:focus{outline:none;border-color:var(--primary)}
+  .text-options{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:12px}
+  .text-options label{display:block;font-size:11px;font-weight:600;color:var(--muted);margin-bottom:4px}
+  .text-options select,.text-options input{padding:9px 10px;border:1px solid var(--border);border-radius:8px;font-size:13px;background:var(--white);width:100%;font-family:inherit;color:var(--text)}
+  .text-options select:focus,.text-options input:focus{outline:none;border-color:var(--primary)}
+  .text-actions{display:flex;gap:8px;margin-top:14px;align-items:center}
+  .text-hint{flex:1;font-size:12px;color:var(--muted)}
+  .btn-add{background:var(--primary);color:#fff;border:none;padding:11px 22px;border-radius:8px;font-weight:600;font-size:14px;cursor:pointer;display:flex;align-items:center;gap:6px}
+  .btn-add:hover{background:var(--primary-dark)}
+  .btn-add svg{width:16px;height:16px}
+
+  /* ===== Workspace ===== */
   .workspace{display:none;grid-template-columns:1fr 360px;gap:20px;margin-top:20px}
   .workspace.active{display:grid}
   @media(max-width:900px){.workspace.active{grid-template-columns:1fr}}
 
+  /* ===== Progress Bar ===== */
+  .progress-wrap{display:none;background:var(--white);border-radius:var(--radius);padding:14px 20px;box-shadow:var(--shadow);margin-bottom:16px;border-right:4px solid var(--primary)}
+  .progress-wrap.active{display:block;animation:slideIn .3s ease}
+  @keyframes slideIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+  .progress-label{display:flex;justify-content:space-between;align-items:center;font-size:13px;font-weight:600;color:var(--dark);margin-bottom:8px;gap:12px}
+  .progress-label .progress-status{display:flex;align-items:center;gap:8px;flex:1;overflow:hidden}
+  .progress-label .progress-status span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .progress-label .progress-pct{background:var(--primary);color:#fff;padding:2px 10px;border-radius:20px;font-size:12px;font-weight:700;min-width:52px;text-align:center}
+  .progress-track{height:8px;background:var(--bg);border-radius:20px;overflow:hidden;position:relative}
+  .progress-fill{height:100%;background:linear-gradient(90deg,var(--primary),#ff6b5e);width:0;transition:width .25s ease;border-radius:20px}
+  .progress-fill.indeterminate{width:30%;animation:indeterminate 1.4s ease-in-out infinite}
+  @keyframes indeterminate{0%{margin-left:-30%}100%{margin-left:100%}}
+  .progress-info{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-top:6px}
+
+  /* ===== Panels ===== */
   .panel{background:var(--white);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
   .panel-title{font-size:14px;font-weight:600;color:var(--dark);margin-bottom:14px;display:flex;align-items:center;justify-content:space-between;gap:8px}
   .panel-title .count{background:var(--bg);color:var(--muted);padding:2px 10px;border-radius:20px;font-size:12px}
@@ -86,24 +95,32 @@
   .file-card img{width:100%;height:100%;object-fit:cover;display:block}
   .file-card .file-name{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,.78));color:#fff;padding:20px 8px 6px;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .file-card .file-size{position:absolute;bottom:6px;left:8px;color:#fff;font-size:10px;opacity:.85;font-weight:600}
-  .file-card .file-remove{position:absolute;top:6px;left:6px;width:24px;height:24px;border-radius:50%;background:rgba(0,0,0,.6);color:#fff;border:none;cursor:pointer;font-size:14px;line-height:1;display:grid;place-items:center;opacity:0;transition:opacity .15s}
+  .file-card .file-remove{position:absolute;top:6px;left:6px;width:24px;height:24px;border-radius:50%;background:rgba(0,0,0,.6);color:#fff;border:none;cursor:pointer;font-size:14px;line-height:1;display:grid;place-items:center;opacity:0;transition:opacity .15s;z-index:4}
   .file-card:hover .file-remove{opacity:1}
-  .file-card .file-status{position:absolute;top:6px;right:6px;background:var(--primary);color:#fff;width:22px;height:22px;border-radius:50%;font-size:12px;display:grid;place-items:center;opacity:0;transform:scale(.5);transition:all .2s}
+  .file-card .file-status{position:absolute;top:6px;right:6px;background:var(--primary);color:#fff;width:22px;height:22px;border-radius:50%;font-size:12px;display:grid;place-items:center;opacity:0;transform:scale(.5);transition:all .2s;z-index:4}
   .file-card.done .file-status{opacity:1;transform:scale(1);background:var(--success)}
-  .file-card.done::after{content:"";position:absolute;inset:0;border:2px solid var(--success);border-radius:8px;pointer-events:none}
+  .file-card.done::after{content:"";position:absolute;inset:0;border:2px solid var(--success);border-radius:8px;pointer-events:none;z-index:3}
   .file-card.processing::before{content:"";position:absolute;inset:0;background:rgba(255,255,255,.85);z-index:2}
   .file-card.processing::after{content:"";position:absolute;width:24px;height:24px;top:50%;left:50%;margin:-12px 0 0 -12px;border:3px solid var(--border);border-top-color:var(--primary);border-radius:50%;animation:spin .8s linear infinite;z-index:3}
   @keyframes spin{to{transform:rotate(360deg)}}
 
+  /* ===== Text Card ===== */
+  .file-card.text-card{background:linear-gradient(135deg,#fef3c7,#fde68a);border-color:#f59e0b;display:flex;align-items:flex-start;justify-content:center}
+  .file-card.text-card .text-preview{padding:26px 10px 20px;font-size:10px;line-height:1.5;color:#78350f;width:100%;height:100%;overflow:hidden;display:flex;align-items:center;justify-content:center;text-align:center;direction:rtl}
+  .file-card.text-card .file-name{background:linear-gradient(transparent,rgba(120,53,15,.92))}
+  .file-card.text-card .file-size{display:none}
+  .file-card.text-card .file-status{background:var(--success)}
+
+  /* ===== Options ===== */
   .option-group{margin-bottom:18px}
   .option-group label.title{display:block;font-size:13px;font-weight:600;color:var(--dark);margin-bottom:8px}
-
   .format-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:5px}
   .format-btn{padding:9px 2px;border:2px solid var(--border);background:var(--white);border-radius:8px;font-weight:600;font-size:11px;cursor:pointer;color:var(--text);transition:all .15s}
-  .format-btn:hover{border-color:var(--primary)}
+  .format-btn:hover:not(:disabled){border-color:var(--primary)}
   .format-btn.active{border-color:var(--primary);background:var(--primary);color:#fff}
   .format-btn.pdf{border-color:#d4a72c;color:#8a6a00}
   .format-btn.pdf.active{border-color:var(--primary-dark);background:var(--primary-dark);color:#fff}
+  .format-btn:disabled{opacity:.4;cursor:not-allowed}
   .badge-pdf{display:inline-block;background:#bd060a;color:#fff;font-size:9px;padding:1px 4px;border-radius:4px;margin-right:3px;font-weight:700}
 
   .slider-row{display:flex;align-items:center;gap:12px}
@@ -144,9 +161,12 @@
   .info-row{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-top:6px;padding:6px 10px;background:var(--bg);border-radius:6px}
   .info-row strong{color:var(--dark);font-weight:700}
 
+  .page-warn{background:#fef3c7;border:1px solid #f59e0b;color:#78350f;padding:8px 12px;border-radius:8px;font-size:12px;margin-top:8px;display:none}
+  .page-warn.show{display:block}
+
+  /* ===== Bottom sections ===== */
   .section{max-width:900px;margin:64px auto 0;padding:0 24px}
   .section h2{font-size:clamp(22px,3vw,30px);color:var(--dark);margin-bottom:16px;font-weight:700}
-
   .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin-top:24px}
   .step{background:var(--white);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow)}
   .step-num{width:36px;height:36px;background:var(--primary);color:#fff;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:16px;margin-bottom:12px}
@@ -191,29 +211,118 @@
 </header>
 
 <section class="hero">
-  <h1 data-lang="ar">حوّل واضغط صورك و PDF <em>بجودة احترافية</em></h1>
-  <h1 data-lang="en">Convert & Compress Images and PDF <em>Professionally</em></h1>
-  <p data-lang="ar">JPG · PNG · WEBP · BMP · PDF — ضغط ذكي، تغيير حجم، تدوير — بدون تسجيل، خصوصية 100%</p>
-  <p data-lang="en">JPG · PNG · WEBP · BMP · PDF — smart compression, resize, rotate — no signup, 100% private</p>
+  <h1 data-lang="ar">حوّل واضغط <em>الصور والنصوص</em> إلى PDF</h1>
+  <h1 data-lang="en">Convert & Compress <em>Images and Text</em> to PDF</h1>
+  <p data-lang="ar">JPG · PNG · WEBP · BMP · PDF · نصوص — دعم حتى 500 صفحة، جودة احترافية، خصوصية 100%</p>
+  <p data-lang="en">JPG · PNG · WEBP · BMP · PDF · Text — up to 500 pages, professional quality, 100% private</p>
 </section>
 
 <main>
-  <div class="dropzone" id="dropzone">
-    <div class="dropzone-icon">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
-    </div>
-    <h2 data-lang="ar">اسحب صورك هنا</h2>
-    <h2 data-lang="en">Drag your images here</h2>
-    <p data-lang="ar">أو اضغط لاختيار الملفات — JPG، PNG، WEBP، BMP</p>
-    <p data-lang="en">Or click to choose files — JPG, PNG, WEBP, BMP</p>
-    <button class="btn-select" id="selectBtn"><span data-lang="ar">اختر الصور</span><span data-lang="en">Select Images</span></button>
-    <input type="file" id="fileInput" multiple accept="image/*" hidden>
+
+  <!-- Input Tabs -->
+  <div class="input-tabs" id="inputTabs">
+    <button class="input-tab active" data-tab="images">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+      <span data-lang="ar">الصور</span><span data-lang="en">Images</span>
+    </button>
+    <button class="input-tab" data-tab="text">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg>
+      <span data-lang="ar">النصوص</span><span data-lang="en">Text</span>
+    </button>
   </div>
 
+  <!-- Images Tab -->
+  <div id="panelImages">
+    <div class="dropzone" id="dropzone">
+      <div class="dropzone-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+      </div>
+      <h2 data-lang="ar">اسحب صورك هنا</h2>
+      <h2 data-lang="en">Drag your images here</h2>
+      <p data-lang="ar">أو اضغط لاختيار الملفات — JPG، PNG، WEBP، BMP</p>
+      <p data-lang="en">Or click to choose files — JPG, PNG, WEBP, BMP</p>
+      <button class="btn-select" id="selectBtn"><span data-lang="ar">اختر الصور</span><span data-lang="en">Select Images</span></button>
+      <input type="file" id="fileInput" multiple accept="image/*" hidden>
+    </div>
+  </div>
+
+  <!-- Text Tab -->
+  <div id="panelText" style="display:none">
+    <div class="text-input-card">
+      <h3>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg>
+        <span data-lang="ar">أضف نصاً لتحويله إلى PDF</span>
+        <span data-lang="en">Add text to convert to PDF</span>
+      </h3>
+      <textarea class="textarea" id="textInput" placeholder="الصق أو اكتب النص هنا... يدعم النصوص الطويلة واللغة العربية والإنجليزية والإيموجي."></textarea>
+      <div class="text-options">
+        <div>
+          <label data-lang="ar">حجم الخط</label><label data-lang="en">Font size</label>
+          <select id="textFontSize">
+            <option value="12">12 px</option>
+            <option value="14" selected>14 px</option>
+            <option value="16">16 px</option>
+            <option value="18">18 px</option>
+            <option value="20">20 px</option>
+          </select>
+        </div>
+        <div>
+          <label data-lang="ar">الاتجاه</label><label data-lang="en">Direction</label>
+          <select id="textDir">
+            <option value="auto" data-lang="ar">تلقائي</option>
+            <option value="auto" data-lang="en">Auto</option>
+            <option value="rtl">RTL (عربي)</option>
+            <option value="ltr">LTR (English)</option>
+          </select>
+        </div>
+        <div>
+          <label data-lang="ar">تباعد الأسطر</label><label data-lang="en">Line height</label>
+          <select id="textLineHeight">
+            <option value="1.4">1.4</option>
+            <option value="1.7" selected>1.7</option>
+            <option value="2.0">2.0</option>
+          </select>
+        </div>
+      </div>
+      <div class="text-actions">
+        <div class="text-hint" id="textHint">
+          <span data-lang="ar">0 حرف · 0 كلمة</span>
+          <span data-lang="en">0 chars · 0 words</span>
+        </div>
+        <button class="btn-add" id="addTextBtn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          <span data-lang="ar">أضف للقائمة</span><span data-lang="en">Add to queue</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Progress Bar -->
+  <div class="progress-wrap" id="progressWrap" style="margin-top:20px">
+    <div class="progress-label">
+      <div class="progress-status">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--primary);animation:spin 1s linear infinite"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>
+        <span id="progressText">...</span>
+      </div>
+      <span class="progress-pct" id="progressPct">0%</span>
+    </div>
+    <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    <div class="progress-info">
+      <span id="progressStep">—</span>
+      <span id="progressPages"></span>
+    </div>
+  </div>
+
+  <div class="page-warn" id="pageWarn">
+    <span data-lang="ar">⚠ تم تجاوز الحد الأقصى (500 صفحة). سيتم إيقاف التحويل عند الصفحة 500.</span>
+    <span data-lang="en">⚠ Maximum page limit (500) exceeded. Conversion will stop at page 500.</span>
+  </div>
+
+  <!-- Workspace -->
   <div class="workspace" id="workspace">
     <div class="panel">
       <div class="panel-title">
-        <span data-lang="ar">الصور المحددة</span><span data-lang="en">Selected images</span>
+        <span data-lang="ar">قائمة الانتظار</span><span data-lang="en">Queue</span>
         <span class="count" id="fileCount">0</span>
       </div>
       <div class="files-grid" id="filesGrid"></div>
@@ -224,6 +333,10 @@
       <div class="info-row" id="resultInfoRow" style="display:none">
         <span><span data-lang="ar">بعد المعالجة:</span><span data-lang="en">Result:</span></span>
         <strong id="totalResult">—</strong>
+      </div>
+      <div class="info-row" id="pagesInfoRow" style="display:none">
+        <span><span data-lang="ar">عدد الصفحات:</span><span data-lang="en">Pages:</span></span>
+        <strong id="totalPages">0 / 500</strong>
       </div>
     </div>
 
@@ -242,21 +355,19 @@
         </div>
       </div>
 
-      <!-- Compression Section -->
       <div class="compress-section show" id="compressSection">
         <div class="option-group">
-          <label class="title" data-lang="ar">وضع الضغط</label>
-          <label class="title" data-lang="en">Compression mode</label>
+          <label class="title" data-lang="ar">وضع الضغط (للصور)</label>
+          <label class="title" data-lang="en">Compression mode (images)</label>
           <div class="mode-tabs" id="modeTabs">
             <button class="mode-tab active" data-mode="quality"><span data-lang="ar">الجودة</span><span data-lang="en">Quality</span></button>
-            <button class="mode-tab" data-mode="target"><span data-lang="ar">الحجم المستهدف</span><span data-lang="en">Target size</span></button>
-            <button class="mode-tab" data-mode="percent"><span data-lang="ar">نسبة مئوية</span><span data-lang="en">Percentage</span></button>
+            <button class="mode-tab" data-mode="target"><span data-lang="ar">حجم مستهدف</span><span data-lang="en">Target size</span></button>
+            <button class="mode-tab" data-mode="percent"><span data-lang="ar">نسبة %</span><span data-lang="en">Percent %</span></button>
           </div>
         </div>
 
         <div class="option-group" id="qualityMode">
-          <label class="title" data-lang="ar">الجودة</label>
-          <label class="title" data-lang="en">Quality</label>
+          <label class="title" data-lang="ar">الجودة</label><label class="title" data-lang="en">Quality</label>
           <div class="slider-row">
             <input type="range" id="quality" min="10" max="100" value="90" step="5">
             <span class="slider-value" id="qualityVal">90%</span>
@@ -264,25 +375,21 @@
         </div>
 
         <div class="option-group" id="targetMode" style="display:none">
-          <label class="title" data-lang="ar">الحجم المستهدف لكل صورة (KB)</label>
-          <label class="title" data-lang="en">Target size per image (KB)</label>
+          <label class="title" data-lang="ar">الحجم المستهدف (KB)</label>
+          <label class="title" data-lang="en">Target size (KB)</label>
           <div class="input-row">
-            <input type="number" id="targetKB" min="10" max="10000" value="200" placeholder="200">
+            <input type="number" id="targetKB" min="10" max="10000" value="200">
             <span style="color:var(--muted);font-weight:600">KB</span>
           </div>
-          <p style="font-size:11px;color:var(--muted);margin-top:6px" data-lang="ar">سيتم البحث تلقائياً عن أفضل جودة تحقق الحجم المطلوب.</p>
-          <p style="font-size:11px;color:var(--muted);margin-top:6px" data-lang="en">Automatically finds the best quality to hit target.</p>
         </div>
 
         <div class="option-group" id="percentMode" style="display:none">
           <label class="title" data-lang="ar">تصغير الأبعاد بنسبة</label>
-          <label class="title" data-lang="en">Scale down dimensions by</label>
+          <label class="title" data-lang="en">Scale down by</label>
           <div class="slider-row">
             <input type="range" id="percent" min="10" max="100" value="70" step="5">
             <span class="slider-value" id="percentVal">70%</span>
           </div>
-          <p style="font-size:11px;color:var(--muted);margin-top:6px" data-lang="ar">تصغير الأبعاد ثم ضغط بجودة 88%.</p>
-          <p style="font-size:11px;color:var(--muted);margin-top:6px" data-lang="en">Scales dimensions then compresses at 88% quality.</p>
         </div>
       </div>
 
@@ -316,16 +423,18 @@
           <select id="pdfPageSize">
             <option value="a4">A4</option>
             <option value="letter">Letter</option>
-            <option value="fit"><span data-lang="ar">حسب الصورة</span><span data-lang="en">Fit to image</span></option>
+            <option value="fit" data-lang="ar">حسب الصورة</option>
+            <option value="fit" data-lang="en">Fit to image</option>
           </select>
         </div>
         <div class="option-group">
           <label class="title" data-lang="ar">الاتجاه</label>
           <label class="title" data-lang="en">Orientation</label>
           <select id="pdfOrientation">
-            <option value="auto"><span data-lang="ar">تلقائي (حسب الصورة)</span><span data-lang="en">Auto (based on image)</span></option>
-            <option value="p"><span data-lang="ar">طولي (Portrait)</span><span data-lang="en">Portrait</span></option>
-            <option value="l"><span data-lang="ar">عرضي (Landscape)</span><span data-lang="en">Landscape</span></option>
+            <option value="auto" data-lang="ar">تلقائي</option>
+            <option value="auto" data-lang="en">Auto</option>
+            <option value="p">Portrait</option>
+            <option value="l">Landscape</option>
           </select>
         </div>
         <div class="option-group">
@@ -338,7 +447,7 @@
           </select>
         </div>
         <label class="checkbox-row"><input type="checkbox" id="pdfCombined" checked>
-          <span data-lang="ar">دمج كل الصور في PDF واحد</span>
+          <span data-lang="ar">دمج الكل في PDF واحد</span>
           <span data-lang="en">Combine all into one PDF</span>
         </label>
         <label class="checkbox-row"><input type="checkbox" id="pdfLossless" checked>
@@ -369,26 +478,26 @@
   <h2 data-lang="ar">كيف تستخدم الأداة؟</h2>
   <h2 data-lang="en">How to use</h2>
   <div class="steps">
-    <div class="step"><div class="step-num">1</div><h4 data-lang="ar">ارفع الصور</h4><h4 data-lang="en">Upload</h4><p data-lang="ar">اسحب الصور أو اضغط لاختيارها.</p><p data-lang="en">Drag or click to select images.</p></div>
-    <div class="step"><div class="step-num">2</div><h4 data-lang="ar">اختر الصيغة ووضع الضغط</h4><h4 data-lang="en">Choose format & mode</h4><p data-lang="ar">JPG، PNG، WEBP، BMP، PDF + ضغط ذكي.</p><p data-lang="en">JPG, PNG, WEBP, BMP, PDF + smart compression.</p></div>
-    <div class="step"><div class="step-num">3</div><h4 data-lang="ar">اضبط الإعدادات</h4><h4 data-lang="en">Adjust</h4><p data-lang="ar">الحجم، التدوير، خيارات PDF.</p><p data-lang="en">Size, rotation, PDF options.</p></div>
-    <div class="step"><div class="step-num">4</div><h4 data-lang="ar">عالج ونزّل</h4><h4 data-lang="en">Process & download</h4><p data-lang="ar">اضغط "معالجة الكل" ثم نزّل النتائج.</p><p data-lang="en">Click "Process all" then download.</p></div>
+    <div class="step"><div class="step-num">1</div><h4 data-lang="ar">أضف المحتوى</h4><h4 data-lang="en">Add content</h4><p data-lang="ar">صور أو نصوص — أو الاثنين معاً.</p><p data-lang="en">Images or text — or both.</p></div>
+    <div class="step"><div class="step-num">2</div><h4 data-lang="ar">اختر الإعدادات</h4><h4 data-lang="en">Configure</h4><p data-lang="ar">الصيغة، الجودة، الحجم، الصفحات.</p><p data-lang="en">Format, quality, size, pages.</p></div>
+    <div class="step"><div class="step-num">3</div><h4 data-lang="ar">عالج</h4><h4 data-lang="en">Process</h4><p data-lang="ar">اضغط "معالجة الكل" وتابع التقدم.</p><p data-lang="en">Click "Process all" and watch progress.</p></div>
+    <div class="step"><div class="step-num">4</div><h4 data-lang="ar">نزّل</h4><h4 data-lang="en">Download</h4><p data-lang="ar">اضغط "تنزيل الكل" لحفظ النتائج.</p><p data-lang="en">Click "Download all" to save.</p></div>
   </div>
 </section>
 
 <div class="features">
-  <div class="feature"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div><h3 data-lang="ar">خصوصية تامة</h3><h3 data-lang="en">Total privacy</h3><p data-lang="ar">الصور لا تغادر جهازك.</p><p data-lang="en">Images never leave your device.</p></div>
-  <div class="feature"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div><h3 data-lang="ar">ضغط ذكي</h3><h3 data-lang="en">Smart compression</h3><p data-lang="ar">حسب الجودة أو الحجم المستهدف.</p><p data-lang="en">By quality or target size.</p></div>
-  <div class="feature"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><h3 data-lang="ar">PDF عالي الجودة</h3><h3 data-lang="en">High-quality PDF</h3><p data-lang="ar">بدون إعادة ضغط مزدوج.</p><p data-lang="en">No double compression.</p></div>
-  <div class="feature"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/></svg></div><h3 data-lang="ar">صيغ متعددة</h3><h3 data-lang="en">Multiple formats</h3><p data-lang="ar">JPG، PNG، WEBP، BMP، PDF.</p><p data-lang="en">JPG, PNG, WEBP, BMP, PDF.</p></div>
+  <div class="feature"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div><h3 data-lang="ar">خصوصية تامة</h3><h3 data-lang="en">Total privacy</h3><p data-lang="ar">لا شيء يغادر جهازك.</p><p data-lang="en">Nothing leaves your device.</p></div>
+  <div class="feature"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg></div><h3 data-lang="ar">نصوص إلى PDF</h3><h3 data-lang="en">Text to PDF</h3><p data-lang="ar">نصوص طويلة عربية وإنجليزية.</p><p data-lang="en">Long Arabic & English text.</p></div>
+  <div class="feature"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div><h3 data-lang="ar">حتى 500 صفحة</h3><h3 data-lang="en">Up to 500 pages</h3><p data-lang="ar">دفعة كبيرة في مرة واحدة.</p><p data-lang="en">Large batch at once.</p></div>
+  <div class="feature"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div><h3 data-lang="ar">جودة احترافية</h3><h3 data-lang="en">Pro quality</h3><p data-lang="ar">بدون إعادة ضغط مزدوج.</p><p data-lang="en">No double compression.</p></div>
 </div>
 
 <section class="section">
   <h2 data-lang="ar">الأسئلة الشائعة</h2>
   <h2 data-lang="en">FAQ</h2>
-  <details class="faq-item" open><summary data-lang="ar">كيف أحصل على أفضل جودة PDF؟</summary><summary data-lang="en">How to get best PDF quality?</summary><p data-lang="ar">اترك خيار "جودة أصلية" مفعّلاً — عندها تُضمّن الصور الأصلية في الـ PDF بدون أي إعادة ضغط.</p><p data-lang="en">Keep "Original quality" enabled — the original image bytes are embedded without re-compression.</p></details>
-  <details class="faq-item"><summary data-lang="ar">كيف أضغط الصور لحجم معين؟</summary><summary data-lang="en">How to compress to a target size?</summary><p data-lang="ar">اختر وضع "الحجم المستهدف" وحدد الحجم بالكيلوبايت. سيتم البحث تلقائياً عن أفضل جودة تحقق ذلك الحجم.</p><p data-lang="en">Choose "Target size" mode and set KB. It finds the best quality that fits.</p></details>
-  <details class="faq-item"><summary data-lang="ar">هل ترفعون صوري؟</summary><summary data-lang="en">Do you upload my images?</summary><p data-lang="ar">لا، كل المعالجة في متصفحك فقط.</p><p data-lang="en">No, all processing happens in your browser.</p></details>
+  <details class="faq-item" open><summary data-lang="ar">كم صفحة يدعم الـ PDF؟</summary><summary data-lang="en">How many pages supported?</summary><p data-lang="ar">حتى 500 صفحة في PDF واحد. يمكنك دمج صور ونصوص في نفس الملف.</p><p data-lang="en">Up to 500 pages in one PDF. You can mix images and text in the same file.</p></details>
+  <details class="faq-item"><summary data-lang="ar">هل تدعم اللغة العربية؟</summary><summary data-lang="en">Does it support Arabic?</summary><p data-lang="ar">نعم، النصوص العربية تُكتب من اليمين لليسار مع دعم كامل للتشكيل.</p><p data-lang="en">Yes, Arabic text is rendered RTL with full shaping support.</p></details>
+  <details class="faq-item"><summary data-lang="ar">هل ترفعون ملفاتي؟</summary><summary data-lang="en">Do you upload my files?</summary><p data-lang="ar">لا، كل المعالجة في متصفحك فقط.</p><p data-lang="en">No, all processing in your browser.</p></details>
 </section>
 
 <footer>
@@ -401,7 +510,14 @@
 (() => {
   'use strict';
 
-  /* ============ i18n ============ */
+  /* ==================== Constants ==================== */
+  const MAX_PAGES = 500;
+  const DPI = 96;
+  const PX_PER_MM = DPI / 25.4;
+  const TEXT_RENDER_SCALE = 2;   // 2x DPI for crisp text
+  const TEXT_JPEG_QUALITY = 0.92;
+
+  /* ==================== i18n ==================== */
   const params = new URLSearchParams(location.search);
   let LANG = params.get('lang') || localStorage.getItem('lang') || (navigator.language?.startsWith('ar') ? 'ar' : 'en');
   if (LANG !== 'ar' && LANG !== 'en') LANG = 'en';
@@ -419,96 +535,146 @@
     const url = new URL(location.href); url.searchParams.set('lang', LANG); history.replaceState(null, '', url);
   }));
 
-  /* ============ Toast ============ */
+  /* ==================== Toast ==================== */
   const toast = document.getElementById('toast');
   function showToast(msg, type = '') {
     toast.textContent = msg;
     toast.className = 'toast show ' + type;
     clearTimeout(showToast._t);
-    showToast._t = setTimeout(() => toast.classList.remove('show'), 2800);
+    showToast._t = setTimeout(() => toast.classList.remove('show'), 3000);
   }
 
   const T = {
     ar: {
-      addSuccess: n => `تمت إضافة ${n} صورة`,
+      addSuccess: n => `تمت إضافة ${n} عنصر`,
+      addText: n => `تمت إضافة نص (${n} حرف)`,
       invalid: 'الرجاء اختيار صور صالحة',
+      emptyText: 'الرجاء كتابة نص أولاً',
       converting: 'جارٍ المعالجة...',
       okAll: n => `تم إنشاء ${n} ملف بنجاح`,
       partial: (o, f) => `نجح: ${o} · فشل: ${f}`,
       needConvert: 'قم بالمعالجة أولاً',
       downloading: n => `جارٍ تنزيل ${n} ملف...`,
-      confirmClear: 'هل تريد مسح جميع الصور؟',
+      confirmClear: 'هل تريد مسح الكل؟',
       loadingPdf: 'جارٍ تحميل مكتبة PDF...',
       pdfFail: 'فشل إنشاء PDF',
-      noImage: 'لا توجد صورة',
-      compressing: 'جارٍ الضغط...',
-      targetTooSmall: 'الحجم المستهدف صغير جداً — استُخدمت أقل جودة ممكنة'
+      textOnlyPdf: 'النصوص تُحوّل دائماً إلى PDF',
+      pageLimit: 'تم بلوغ الحد الأقصى (500 صفحة)'
     },
     en: {
-      addSuccess: n => `Added ${n} image(s)`,
+      addSuccess: n => `Added ${n} item(s)`,
+      addText: n => `Text added (${n} chars)`,
       invalid: 'Please select valid images',
+      emptyText: 'Please write some text first',
       converting: 'Processing...',
       okAll: n => `Created ${n} file(s) successfully`,
       partial: (o, f) => `Success: ${o} · Failed: ${f}`,
       needConvert: 'Process first',
       downloading: n => `Downloading ${n} file(s)...`,
-      confirmClear: 'Clear all images?',
+      confirmClear: 'Clear all items?',
       loadingPdf: 'Loading PDF library...',
       pdfFail: 'PDF creation failed',
-      noImage: 'No image',
-      compressing: 'Compressing...',
-      targetTooSmall: 'Target too small — used minimum quality'
+      textOnlyPdf: 'Text items are always output as PDF',
+      pageLimit: 'Page limit reached (500)'
     }
   };
   const t = (k, ...args) => typeof T[LANG][k] === 'function' ? T[LANG][k](...args) : T[LANG][k];
 
-  /* ============ State ============ */
-  const files = [];
+  /* ==================== State ==================== */
+  const items = []; // {id, type:'image'|'text', ...}
   let nextId = 1;
   let currentFormat = 'jpeg';
   let currentRotate = 0;
   let compressionMode = 'quality';
+  let totalPagesGenerated = 0;
 
-  /* ============ DOM ============ */
-  const dropzone       = document.getElementById('dropzone');
-  const fileInput      = document.getElementById('fileInput');
-  const workspace      = document.getElementById('workspace');
-  const filesGrid      = document.getElementById('filesGrid');
-  const fileCount      = document.getElementById('fileCount');
-  const convertBtn     = document.getElementById('convertBtn');
-  const downloadAllBtn = document.getElementById('downloadAllBtn');
-  const clearBtn       = document.getElementById('clearBtn');
-  const quality        = document.getElementById('quality');
-  const qualityVal     = document.getElementById('qualityVal');
-  const qualityMode    = document.getElementById('qualityMode');
-  const targetMode     = document.getElementById('targetMode');
-  const percentMode    = document.getElementById('percentMode');
-  const targetKB       = document.getElementById('targetKB');
-  const percent        = document.getElementById('percent');
-  const percentVal     = document.getElementById('percentVal');
-  const compressSection= document.getElementById('compressSection');
-  const widthInput     = document.getElementById('widthInput');
-  const heightInput    = document.getElementById('heightInput');
-  const keepRatio      = document.getElementById('keepRatio');
-  const pdfSection     = document.getElementById('pdfSection');
-  const totalOriginal  = document.getElementById('totalOriginal');
-  const totalResult    = document.getElementById('totalResult');
-  const resultInfoRow  = document.getElementById('resultInfoRow');
+  /* ==================== DOM ==================== */
+  const $ = id => document.getElementById(id);
+  const dropzone = $('dropzone');
+  const fileInput = $('fileInput');
+  const workspace = $('workspace');
+  const filesGrid = $('filesGrid');
+  const fileCount = $('fileCount');
+  const convertBtn = $('convertBtn');
+  const downloadAllBtn = $('downloadAllBtn');
+  const clearBtn = $('clearBtn');
+  const quality = $('quality');
+  const qualityVal = $('qualityVal');
+  const qualityMode = $('qualityMode');
+  const targetMode = $('targetMode');
+  const percentMode = $('percentMode');
+  const targetKB = $('targetKB');
+  const percent = $('percent');
+  const percentVal = $('percentVal');
+  const compressSection = $('compressSection');
+  const widthInput = $('widthInput');
+  const heightInput = $('heightInput');
+  const keepRatio = $('keepRatio');
+  const pdfSection = $('pdfSection');
+  const totalOriginal = $('totalOriginal');
+  const totalResult = $('totalResult');
+  const resultInfoRow = $('resultInfoRow');
+  const pagesInfoRow = $('pagesInfoRow');
+  const totalPages = $('totalPages');
+  const progressWrap = $('progressWrap');
+  const progressFill = $('progressFill');
+  const progressText = $('progressText');
+  const progressPct = $('progressPct');
+  const progressStep = $('progressStep');
+  const progressPages = $('progressPages');
+  const pageWarn = $('pageWarn');
 
-  /* ============ Helpers ============ */
+  /* ==================== Helpers ==================== */
   const formatExt = f => f === 'jpeg' ? 'jpg' : f;
-  const mimeFor   = f => `image/${f}`;
-  const baseName  = n => n.replace(/\.[^.]+$/, '');
-  const escapeHtml= s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const fmtSize   = b => {
+  const mimeFor = f => `image/${f}`;
+  const baseName = n => n.replace(/\.[^.]+$/, '');
+  const escapeHtml = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const fmtSize = b => {
     if (!b) return '0 B';
     if (b < 1024) return b + ' B';
-    if (b < 1024*1024) return (b/1024).toFixed(1) + ' KB';
-    return (b/1024/1024).toFixed(2) + ' MB';
+    if (b < 1048576) return (b/1024).toFixed(1) + ' KB';
+    return (b/1048576).toFixed(2) + ' MB';
   };
   const loadImage = url => new Promise((res, rej) => { const img = new Image(); img.onload = () => res(img); img.onerror = rej; img.src = url; });
+  const yieldToUI = () => new Promise(r => setTimeout(r, 0));
 
-  /* ============ Lazy-load jsPDF ============ */
+  const detectDir = txt => {
+    const ar = (txt.match(/[\u0600-\u06FF\u0750-\u077F]/g) || []).length;
+    const la = (txt.match(/[a-zA-Z]/g) || []).length;
+    return ar > la ? 'rtl' : 'ltr';
+  };
+
+  /* ==================== Progress Bar ==================== */
+  let progressVisibleTimer = null;
+  function showProgress() {
+    clearTimeout(progressVisibleTimer);
+    progressWrap.classList.add('active');
+  }
+  function hideProgress(delay = 1500) {
+    clearTimeout(progressVisibleTimer);
+    progressVisibleTimer = setTimeout(() => {
+      progressWrap.classList.remove('active');
+      progressFill.classList.remove('indeterminate');
+    }, delay);
+  }
+  function setProgress(current, total, label, pagesInfo) {
+    const pct = total ? Math.min(100, Math.round(current / total * 100)) : 0;
+    progressFill.style.width = pct + '%';
+    progressFill.classList.remove('indeterminate');
+    progressPct.textContent = pct + '%';
+    if (label !== undefined) progressText.textContent = label;
+    if (pagesInfo !== undefined) progressPages.textContent = pagesInfo;
+    progressStep.textContent = `${current} / ${total}`;
+  }
+  function setIndeterminate(label) {
+    progressFill.classList.add('indeterminate');
+    progressText.textContent = label || '...';
+    progressPct.textContent = '…';
+    progressStep.textContent = '';
+    progressPages.textContent = '';
+  }
+
+  /* ==================== jsPDF Loader ==================== */
   let jsPDFPromise = null;
   function loadJsPDF() {
     if (window.jspdf) return Promise.resolve(window.jspdf);
@@ -523,91 +689,165 @@
     return jsPDFPromise;
   }
 
-  /* ============ File I/O ============ */
-  function addFiles(list) {
+  /* ==================== Tabs ==================== */
+  document.getElementById('inputTabs').addEventListener('click', e => {
+    const tab = e.target.closest('.input-tab');
+    if (!tab) return;
+    document.querySelectorAll('.input-tab').forEach(b => b.classList.remove('active'));
+    tab.classList.add('active');
+    const target = tab.dataset.tab;
+    $('panelImages').style.display = target === 'images' ? 'block' : 'none';
+    $('panelText').style.display = target === 'text' ? 'block' : 'none';
+  });
+
+  /* ==================== Add Images ==================== */
+  function addImageFiles(list) {
     const imgs = Array.from(list).filter(f => f.type.startsWith('image/'));
     if (!imgs.length) return showToast(t('invalid'), 'error');
     imgs.forEach(file => {
-      const entry = {
-        id: nextId++, file,
-        originalUrl: URL.createObjectURL(file),
-        resultBlob: null, resultUrl: null,
+      const item = {
+        id: nextId++, type: 'image',
+        file, originalUrl: URL.createObjectURL(file),
         originalSize: file.size,
+        resultBlob: null, resultUrl: null,
         name: file.name
       };
-      files.push(entry);
-      renderCard(entry);
+      items.push(item);
+      renderCard(item);
     });
     updateUI();
     showToast(t('addSuccess', imgs.length), 'success');
   }
 
-  function renderCard(entry) {
+  /* ==================== Add Text ==================== */
+  const textInput = $('textInput');
+  const textHint = $('textHint');
+
+  textInput.addEventListener('input', () => {
+    const v = textInput.value;
+    const chars = v.length;
+    const words = v.trim() ? v.trim().split(/\s+/).length : 0;
+    textHint.innerHTML = LANG === 'ar'
+      ? `${chars} حرف · ${words} كلمة`
+      : `${chars} chars · ${words} words`;
+  });
+
+  $('addTextBtn').addEventListener('click', () => {
+    const text = textInput.value;
+    if (!text.trim()) return showToast(t('emptyText'), 'error');
+    const fontSize = parseInt($('textFontSize').value, 10);
+    const dirPref = $('textDir').value;
+    const lineHeight = parseFloat($('textLineHeight').value);
+    const dir = dirPref === 'auto' ? detectDir(text) : dirPref;
+    const item = {
+      id: nextId++, type: 'text',
+      text, fontSize, dir, lineHeight,
+      previewText: text.slice(0, 220),
+      name: (LANG === 'ar' ? 'نص' : 'Text') + ' #' + nextId
+    };
+    items.push(item);
+    renderCard(item);
+    updateUI();
+    showToast(t('addText', text.length), 'success');
+    textInput.value = '';
+    textHint.innerHTML = LANG === 'ar' ? '0 حرف · 0 كلمة' : '0 chars · 0 words';
+  });
+
+  /* ==================== Render Card ==================== */
+  function renderCard(item) {
     const card = document.createElement('div');
-    card.className = 'file-card';
-    card.dataset.id = entry.id;
-    card.innerHTML = `
-      <img src="${entry.originalUrl}" alt="${escapeHtml(entry.name)}" loading="lazy">
-      <button class="file-remove" title="Remove">×</button>
-      <div class="file-status">✓</div>
-      <div class="file-name">${escapeHtml(entry.name)}</div>
-      <div class="file-size">${fmtSize(entry.originalSize)}</div>`;
-    card.querySelector('.file-remove').addEventListener('click', e => { e.stopPropagation(); removeFile(entry.id); });
-    card.addEventListener('click', () => { if (entry.resultUrl) window.open(entry.resultUrl, '_blank'); });
+    card.className = 'file-card' + (item.type === 'text' ? ' text-card' : '');
+    card.dataset.id = item.id;
+    if (item.type === 'image') {
+      card.innerHTML = `
+        <img src="${item.originalUrl}" alt="${escapeHtml(item.name)}" loading="lazy">
+        <button class="file-remove" title="Remove">×</button>
+        <div class="file-status">✓</div>
+        <div class="file-name">${escapeHtml(item.name)}</div>
+        <div class="file-size">${fmtSize(item.originalSize)}</div>`;
+      card.addEventListener('click', () => { if (item.resultUrl) window.open(item.resultUrl, '_blank'); });
+    } else {
+      const preview = item.previewText.replace(/\s+/g, ' ').slice(0, 180);
+      card.innerHTML = `
+        <div class="text-preview">${escapeHtml(preview)}${item.text.length > 180 ? '…' : ''}</div>
+        <button class="file-remove" title="Remove">×</button>
+        <div class="file-status">✓</div>
+        <div class="file-name">${escapeHtml(item.name)}</div>`;
+    }
+    card.querySelector('.file-remove').addEventListener('click', e => { e.stopPropagation(); removeItem(item.id); });
     filesGrid.appendChild(card);
   }
 
+  /* ==================== UI Updates ==================== */
   function updateTotals() {
-    const origTotal = files.reduce((s, f) => s + (f.originalSize || 0), 0);
+    const origTotal = items.filter(i => i.type === 'image').reduce((s, f) => s + (f.originalSize || 0), 0);
     totalOriginal.textContent = fmtSize(origTotal);
-    const done = files.filter(f => f.resultBlob);
+    const done = items.filter(f => f.resultBlob);
     if (done.length) {
       const resTotal = done.reduce((s, f) => s + f.resultBlob.size, 0);
       const pct = origTotal ? Math.round((1 - resTotal / origTotal) * 100) : 0;
-      totalResult.textContent = `${fmtSize(resTotal)} (${pct > 0 ? '−' + pct + '%' : '+' + Math.abs(pct) + '%'})`;
+      totalResult.textContent = `${fmtSize(resTotal)}${pct ? ' (' + (pct > 0 ? '−' + pct + '%' : '+' + Math.abs(pct) + '%') + ')' : ''}`;
       resultInfoRow.style.display = 'flex';
     } else {
       resultInfoRow.style.display = 'none';
     }
+    if (totalPagesGenerated > 0) {
+      pagesInfoRow.style.display = 'flex';
+      totalPages.textContent = `${totalPagesGenerated} / ${MAX_PAGES}`;
+    } else {
+      pagesInfoRow.style.display = 'none';
+    }
   }
 
   function updateUI() {
-    const has = files.length > 0;
+    const has = items.length > 0;
     workspace.classList.toggle('active', has);
-    dropzone.style.display = has ? 'none' : 'block';
-    fileCount.textContent = files.length;
+    // Auto-select PDF if there are text items
+    const hasText = items.some(i => i.type === 'text');
+    if (hasText && currentFormat !== 'pdf') {
+      currentFormat = 'pdf';
+      document.querySelectorAll('.format-btn').forEach(b =>
+        b.classList.toggle('active', b.dataset.format === 'pdf'));
+      pdfSection.classList.add('show');
+      compressSection.classList.add('show');
+    }
+    // Disable non-PDF formats when text items exist
+    document.querySelectorAll('.format-btn').forEach(b => {
+      b.disabled = hasText && b.dataset.format !== 'pdf';
+    });
+    fileCount.textContent = items.length;
     convertBtn.disabled = !has;
-    downloadAllBtn.disabled = !files.some(f => f.resultBlob);
+    downloadAllBtn.disabled = !items.some(f => f.resultBlob);
     updateTotals();
   }
 
-  function removeFile(id) {
-    const i = files.findIndex(f => f.id === id);
+  function removeItem(id) {
+    const i = items.findIndex(f => f.id === id);
     if (i === -1) return;
-    const f = files[i];
-    URL.revokeObjectURL(f.originalUrl);
+    const f = items[i];
+    if (f.originalUrl) URL.revokeObjectURL(f.originalUrl);
     if (f.resultUrl) URL.revokeObjectURL(f.resultUrl);
-    files.splice(i, 1);
+    items.splice(i, 1);
     filesGrid.querySelector(`[data-id="${id}"]`)?.remove();
     updateUI();
   }
 
   function clearAll() {
-    files.forEach(f => {
-      URL.revokeObjectURL(f.originalUrl);
+    items.forEach(f => {
+      if (f.originalUrl) URL.revokeObjectURL(f.originalUrl);
       if (f.resultUrl) URL.revokeObjectURL(f.resultUrl);
     });
-    files.length = 0;
+    items.length = 0;
     filesGrid.innerHTML = '';
+    totalPagesGenerated = 0;
     updateUI();
   }
 
-  /* ============ Canvas Render (resize + rotate) ============ */
-  async function renderToCanvas(entry) {
-    const img = await loadImage(entry.originalUrl);
+  /* ==================== Image Canvas Rendering ==================== */
+  async function renderToCanvas(item) {
+    const img = await loadImage(item.originalUrl);
     let w = img.naturalWidth, h = img.naturalHeight;
 
-    // Optional resize
     const reqW = parseInt(widthInput.value, 10) || 0;
     const reqH = parseInt(heightInput.value, 10) || 0;
     if (reqW && reqH && !keepRatio.checked) { w = reqW; h = reqH; }
@@ -621,8 +861,6 @@
         h = Math.round(img.naturalHeight * r);
       }
     }
-
-    // Optional scale-down via percentage mode
     if (compressionMode === 'percent' && currentFormat !== 'pdf') {
       const p = parseInt(percent.value, 10) / 100;
       w = Math.max(1, Math.round(w * p));
@@ -636,7 +874,6 @@
     const ctx = canvas.getContext('2d');
     ctx.imageSmoothingEnabled = true;
     ctx.imageSmoothingQuality = 'high';
-
     if (currentFormat === 'jpeg' || currentFormat === 'bmp' || currentFormat === 'pdf') {
       ctx.fillStyle = '#ffffff';
       ctx.fillRect(0, 0, cw, ch);
@@ -649,7 +886,7 @@
     return canvas;
   }
 
-  /* ============ BMP Encoder ============ */
+  /* ==================== BMP Encoder ==================== */
   function canvasToBmp(canvas) {
     return new Promise(resolve => {
       const ctx = canvas.getContext('2d');
@@ -684,38 +921,32 @@
     });
   }
 
-  /* ============ Canvas → Blob helper ============ */
   const canvasToBlob = (canvas, type, q) =>
     new Promise(res => canvas.toBlob(res, type, q));
 
-  /* ============ Compression: binary search to hit target KB ============ */
+  /* ==================== Target-size Compression ==================== */
   async function compressToTargetSize(canvas, targetKB) {
     const targetBytes = targetKB * 1024;
-    // Try PNG for simple images first (may be smaller)
     const pngBlob = await canvasToBlob(canvas, 'image/png');
     if (pngBlob && pngBlob.size <= targetBytes) return pngBlob;
-
     let lo = 0.05, hi = 0.98, best = null;
     for (let i = 0; i < 9; i++) {
       const mid = (lo + hi) / 2;
       const blob = await canvasToBlob(canvas, 'image/jpeg', mid);
-      if (blob.size <= targetBytes) { best = blob; lo = mid; }
-      else hi = mid;
+      if (blob.size <= targetBytes) { best = blob; lo = mid; } else hi = mid;
     }
     return best || await canvasToBlob(canvas, 'image/jpeg', 0.05);
   }
 
-  /* ============ Convert single image ============ */
-  async function convertOne(entry) {
-    const canvas = await renderToCanvas(entry);
+  /* ==================== Convert Single Image ==================== */
+  async function convertImage(item) {
+    const canvas = await renderToCanvas(item);
     let blob;
-
     if (currentFormat === 'bmp') {
       blob = await canvasToBmp(canvas);
     } else if (compressionMode === 'target' && currentFormat !== 'png') {
       const target = Math.max(10, parseInt(targetKB.value, 10) || 200);
       blob = await compressToTargetSize(canvas, target);
-      // If target mode but user chose PNG, keep PNG output
     } else {
       const q = compressionMode === 'percent'
         ? 0.88
@@ -723,21 +954,117 @@
       blob = await canvasToBlob(canvas, mimeFor(currentFormat), q);
     }
     if (!blob) throw new Error('Conversion failed');
-
-    entry.resultBlob = blob;
-    if (entry.resultUrl) URL.revokeObjectURL(entry.resultUrl);
-    entry.resultUrl = URL.createObjectURL(blob);
-    entry.name = baseName(entry.file.name) + '.' + formatExt(currentFormat);
+    item.resultBlob = blob;
+    if (item.resultUrl) URL.revokeObjectURL(item.resultUrl);
+    item.resultUrl = URL.createObjectURL(blob);
+    item.name = baseName(item.file.name) + '.' + formatExt(currentFormat);
   }
 
-  /* ============ High-quality PDF helpers ============ */
+  /* ==================== TEXT → Canvas Pages ==================== */
+  /**
+   * Render plain text with word wrapping into canvas pages.
+   * Handles Arabic (RTL) natively via canvas bidi support.
+   * Returns array of canvases (one per page).
+   */
+  function renderTextToCanvasPages(text, opts) {
+    const { fontSize, lineHeight, dir, pageW_mm, pageH_mm, margin_mm } = opts;
+
+    const pageWpx = Math.round(pageW_mm * PX_PER_MM);
+    const pageHpx = Math.round(pageH_mm * PX_PER_MM);
+    const marginPx = Math.round(margin_mm * PX_PER_MM);
+    const contentW = pageWpx - marginPx * 2;
+    const contentH = pageHpx - marginPx * 2;
+    const lineHeightPx = fontSize * lineHeight;
+
+    // Font stack — broad multilingual support
+    const FONT_STACK = '"Segoe UI", "Noto Naskh Arabic", "Cairo", Tahoma, Arial, sans-serif';
+    const fontSpec = `${fontSize}px ${FONT_STACK}`;
+
+    // Measurement context
+    const measureCv = document.createElement('canvas');
+    const mctx = measureCv.getContext('2d');
+    mctx.font = fontSpec;
+
+    // Word-wrap into lines
+    const paragraphs = text.split(/\r?\n/);
+    const lines = [];
+    for (const para of paragraphs) {
+      if (para.trim() === '') { lines.push(''); continue; }
+      const words = para.split(/\s+/).filter(Boolean);
+      let current = '';
+      for (const word of words) {
+        const test = current ? current + ' ' + word : word;
+        if (mctx.measureText(test).width > contentW && current) {
+          lines.push(current);
+          current = word;
+        } else {
+          current = test;
+        }
+      }
+      if (current) lines.push(current);
+    }
+    if (lines.length === 0) lines.push('');
+
+    // Paginate
+    const linesPerPage = Math.max(1, Math.floor(contentH / lineHeightPx));
+    const pageContents = [];
+    for (let i = 0; i < lines.length; i += linesPerPage) {
+      pageContents.push(lines.slice(i, i + linesPerPage));
+    }
+
+    // Render each page
+    const canvases = [];
+    for (const pageLines of pageContents) {
+      const c = document.createElement('canvas');
+      c.width = pageWpx * TEXT_RENDER_SCALE;
+      c.height = pageHpx * TEXT_RENDER_SCALE;
+      const ctx = c.getContext('2d');
+      ctx.scale(TEXT_RENDER_SCALE, TEXT_RENDER_SCALE);
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, pageWpx, pageHpx);
+      ctx.font = fontSpec;
+      ctx.fillStyle = '#000000';
+      ctx.textBaseline = 'top';
+      ctx.direction = dir === 'rtl' ? 'rtl' : 'ltr';
+      ctx.textAlign = dir === 'rtl' ? 'right' : 'left';
+      const x = dir === 'rtl' ? pageWpx - marginPx : marginPx;
+      pageLines.forEach((line, idx) => {
+        ctx.fillText(line, x, marginPx + idx * lineHeightPx);
+      });
+      canvases.push(c);
+    }
+    return canvases;
+  }
+
+  /* ==================== Page Dimensions ==================== */
+  function pageDimensions(pageSize, orientation, imgW, imgH) {
+    if (pageSize === 'fit') {
+      let pw = imgW / PX_PER_MM;
+      let ph = imgH / PX_PER_MM;
+      pw = Math.max(10, Math.min(pw, 5080));
+      ph = Math.max(10, Math.min(ph, 5080));
+      return { pw, ph, orient: pw > ph ? 'l' : 'p' };
+    }
+    const orient = orientation === 'auto' ? (imgW > imgH ? 'l' : 'p') : orientation;
+    let pw, ph;
+    if (pageSize === 'a4') [pw, ph] = orient === 'l' ? [297, 210] : [210, 297];
+    else [pw, ph] = orient === 'l' ? [279.4, 215.9] : [215.9, 279.4];
+    return { pw, ph, orient };
+  }
+
+  const pdfPageDims = pageSizeKey => {
+    // For text pages: use A4/Letter only ('fit' → 'a4')
+    const key = pageSizeKey === 'letter' ? 'letter' : 'a4';
+    return key === 'letter' ? { pw: 215.9, ph: 279.4 } : { pw: 210, ph: 297 };
+  };
+
+  /* ==================== High-quality image for PDF ==================== */
   const fileToDataURL = file => new Promise((resolve, reject) => {
     const r = new FileReader();
     r.onload = () => resolve(r.result);
     r.onerror = reject;
     r.readAsDataURL(file);
   });
-
   const imageDims = dataUrl => new Promise((resolve, reject) => {
     const img = new Image();
     img.onload = () => resolve({ w: img.naturalWidth, h: img.naturalHeight });
@@ -753,204 +1080,290 @@
     return false;
   }
 
-  async function getBestImageForPDF(entry, lossless) {
-    const type = entry.file.type;
-
-    // Lossless mode + no transforms → embed original bytes as-is
+  async function getBestImageForPDF(item, lossless) {
+    const type = item.file.type;
     if (lossless && !needsPixelTransform() && (type === 'image/jpeg' || type === 'image/png')) {
-      const dataUrl = await fileToDataURL(entry.file);
+      const dataUrl = await fileToDataURL(item.file);
       return { dataUrl, format: type === 'image/png' ? 'PNG' : 'JPEG' };
     }
-
-    // Otherwise render via canvas
-    const canvas = await renderToCanvas(entry);
-
-    // If target-size mode, compress
+    const canvas = await renderToCanvas(item);
     if (compressionMode === 'target') {
       const target = Math.max(10, parseInt(targetKB.value, 10) || 200);
       const blob = await compressToTargetSize(canvas, target);
       const dataUrl = await new Promise(res => {
-        const r = new FileReader();
-        r.onload = () => res(r.result);
-        r.readAsDataURL(blob);
+        const r = new FileReader(); r.onload = () => res(r.result); r.readAsDataURL(blob);
       });
       return { dataUrl, format: 'JPEG' };
     }
-
-    // Otherwise: PNG for small/graphic, high-quality JPEG for large photos
-    const megapixels = (canvas.width * canvas.height) / 1_000_000;
-    if (megapixels <= 3) {
-      return { dataUrl: canvas.toDataURL('image/png'), format: 'PNG' };
-    }
-    const q = parseInt(quality.value, 10) / 100 || 0.95;
-    return { dataUrl: canvas.toDataURL('image/jpeg', Math.max(q, 0.92)), format: 'JPEG' };
+    const megapixels = (canvas.width * canvas.height) / 1000000;
+    if (megapixels <= 3) return { dataUrl: canvas.toDataURL('image/png'), format: 'PNG' };
+    const q = Math.max(parseInt(quality.value, 10) / 100 || 0.95, 0.92);
+    return { dataUrl: canvas.toDataURL('image/jpeg', q), format: 'JPEG' };
   }
 
-  /* ============ Accurate page dimensions ============ */
-  function pageDimensions(pageSize, orientation, imgW, imgH) {
-    const PX_TO_MM = 25.4 / 96;
-    if (pageSize === 'fit') {
-      let pw = imgW * PX_TO_MM;
-      let ph = imgH * PX_TO_MM;
-      pw = Math.max(10, Math.min(pw, 5080));
-      ph = Math.max(10, Math.min(ph, 5080));
-      return { pw, ph, orient: pw > ph ? 'l' : 'p' };
-    }
-    const orient = orientation === 'auto' ? (imgW > imgH ? 'l' : 'p') : orientation;
-    let pw, ph;
-    if (pageSize === 'a4') [pw, ph] = orient === 'l' ? [297, 210] : [210, 297];
-    else [pw, ph] = orient === 'l' ? [279.4, 215.9] : [215.9, 279.4];
-    return { pw, ph, orient };
-  }
-
-  /* ============ Convert all to PDF (high quality) ============ */
+  /* ==================== Convert To PDF (mixed) ==================== */
   async function convertAllToPDF() {
     showToast(t('loadingPdf'));
     const { jsPDF } = await loadJsPDF();
-    const pageSize    = document.getElementById('pdfPageSize').value;
-    const orientation = document.getElementById('pdfOrientation').value;
-    const marginMM    = parseFloat(document.getElementById('pdfMargin').value) || 0;
-    const combined    = document.getElementById('pdfCombined').checked;
-    const lossless    = document.getElementById('pdfLossless').checked;
 
+    const pageSize = $('pdfPageSize').value;
+    const orientation = $('pdfOrientation').value;
+    const marginMM = parseFloat($('pdfMargin').value) || 0;
+    const lossless = $('pdfLossless').checked;
+
+    // Estimate total steps for progress
+    const totalSteps = items.length;
+    let step = 0;
     let ok = 0, fail = 0;
+    let pagesCreated = 0;
+    let pdf = null;
+    let limitReached = false;
 
-    async function buildPage(pdf, entry) {
-      const { dataUrl, format } = await getBestImageForPDF(entry, lossless);
-      const { w: iw, h: ih } = await imageDims(dataUrl);
-      const { pw, ph, orient } = pageDimensions(pageSize, orientation, iw, ih);
+    const startPageDims = (() => {
+      // Initial PDF page size, will be adjusted by first item
+      return pageDimensions('a4', 'p', 595, 842);
+    })();
 
-      if (!pdf) {
-        pdf = new jsPDF({
-          orientation: orient,
-          unit: 'mm',
-          format: [pw, ph],
-          compress: true,
-          putOnlyUsedFonts: true
-        });
-      } else {
-        pdf.addPage([pw, ph], orient);
-      }
+    pdf = new jsPDF({
+      orientation: startPageDims.orient,
+      unit: 'mm',
+      format: [startPageDims.pw, startPageDims.ph],
+      compress: true,
+      putOnlyUsedFonts: true
+    });
+    let firstPageUsed = false;
 
-      const availW = Math.max(1, pw - marginMM * 2);
-      const availH = Math.max(1, ph - marginMM * 2);
-      const ratio  = Math.min(availW / iw, availH / ih);
-      const drawW  = iw * ratio;
-      const drawH  = ih * ratio;
-      const x = (pw - drawW) / 2;
-      const y = (ph - drawH) / 2;
-
-      // Do NOT pass compression → jsPDF embeds original JPEG/PNG bytes
-      pdf.addImage(dataUrl, format, x, y, drawW, drawH);
-      return pdf;
+    function addPageToPdf() {
+      // returns true if we can add more pages
+      if (pagesCreated >= MAX_PAGES) { limitReached = true; return false; }
+      return true;
     }
 
-    if (combined) {
-      let pdf = null;
-      for (const f of files) {
-        const card = filesGrid.querySelector(`[data-id="${f.id}"]`);
-        card?.classList.add('processing');
-        try {
-          pdf = await buildPage(pdf, f);
-          ok++;
-          card?.classList.add('done');
-        } catch (e) { fail++; console.error(e); }
-        finally { card?.classList.remove('processing'); }
+    for (const item of items) {
+      const card = filesGrid.querySelector(`[data-id="${item.id}"]`);
+      card?.classList.add('processing');
+      card?.classList.remove('done');
+
+      setProgress(step, totalSteps,
+        item.type === 'text'
+          ? (LANG === 'ar' ? 'معالجة نص...' : 'Processing text...')
+          : (LANG === 'ar' ? 'معالجة صورة...' : 'Processing image...'),
+        `${pagesCreated} ${LANG === 'ar' ? 'صفحة' : 'pages'}`
+      );
+      await yieldToUI();
+
+      try {
+        if (item.type === 'image') {
+          if (limitReached) throw new Error('Page limit');
+
+          const { dataUrl, format } = await getBestImageForPDF(item, lossless);
+          const { w: iw, h: ih } = await imageDims(dataUrl);
+          const { pw, ph, orient } = pageDimensions(pageSize, orientation, iw, ih);
+
+          if (!firstPageUsed) {
+            // Replace initial page dimensions on first use
+            pdf.deletePage(1);
+            pdf.addPage([pw, ph], orient);
+            firstPageUsed = true;
+          } else {
+            pdf.addPage([pw, ph], orient);
+          }
+          pagesCreated++;
+
+          const availW = Math.max(1, pw - marginMM * 2);
+          const availH = Math.max(1, ph - marginMM * 2);
+          const ratio = Math.min(availW / iw, availH / ih);
+          const drawW = iw * ratio;
+          const drawH = ih * ratio;
+          const x = (pw - drawW) / 2;
+          const y = (ph - drawH) / 2;
+          pdf.addImage(dataUrl, format, x, y, drawW, drawH);
+
+          // Also keep per-image blob for download-all
+          item.resultBlob = null;
+          if (item.resultUrl) URL.revokeObjectURL(item.resultUrl);
+          item.resultUrl = null;
+          item.name = baseName(item.file.name) + '.pdf';
+
+        } else {
+          // Text item
+          const dims = pdfPageDims(pageSize);
+          // For text, respect orientation preference; fall back to portrait
+          let textOrient = orientation === 'l' ? 'l' : 'p';
+          let tpw = textOrient === 'l' ? dims.ph : dims.pw;
+          let tph = textOrient === 'l' ? dims.pw : dims.ph;
+
+          const canvases = renderTextToCanvasPages(item.text, {
+            fontSize: item.fontSize,
+            lineHeight: item.lineHeight,
+            dir: item.dir,
+            pageW_mm: tpw,
+            pageH_mm: tph,
+            margin_mm: marginMM || 15
+          });
+
+          for (const c of canvases) {
+            if (!addPageToPdf()) break;
+            const dataUrl = c.toDataURL('image/jpeg', TEXT_JPEG_QUALITY);
+
+            if (!firstPageUsed) {
+              pdf.deletePage(1);
+              pdf.addPage([tpw, tph], textOrient);
+              firstPageUsed = true;
+            } else {
+              pdf.addPage([tpw, tph], textOrient);
+            }
+            pagesCreated++;
+            pdf.addImage(dataUrl, 'JPEG', 0, 0, tpw, tph);
+            await yieldToUI();
+          }
+          item.name = (LANG === 'ar' ? 'نص' : 'Text') + '.pdf';
+        }
+
+        // Yield to update UI
+        await yieldToUI();
+        card?.classList.add('done');
+        ok++;
+      } catch (e) {
+        fail++;
+        console.error(e);
+      } finally {
+        card?.classList.remove('processing');
       }
-      if (pdf) {
-        const blob = pdf.output('blob');
-        files.forEach(x => {
-          if (x.resultUrl) URL.revokeObjectURL(x.resultUrl);
-          x.resultUrl = null; x.resultBlob = null;
-        });
-        files[0].resultBlob = blob;
-        files[0].resultUrl  = URL.createObjectURL(blob);
-        files[0].name       = 'images.pdf';
+
+      step++;
+      setProgress(step, totalSteps, undefined, `${pagesCreated} ${LANG === 'ar' ? 'صفحة' : 'pages'}`);
+      await yieldToUI();
+
+      if (limitReached) {
+        pageWarn.classList.add('show');
+        showToast(t('pageLimit'), 'error');
+        break;
       }
-    } else {
-      for (const f of files) {
-        const card = filesGrid.querySelector(`[data-id="${f.id}"]`);
-        card?.classList.add('processing');
-        try {
-          const pdf = await buildPage(null, f);
-          const blob = pdf.output('blob');
-          f.resultBlob = blob;
-          if (f.resultUrl) URL.revokeObjectURL(f.resultUrl);
-          f.resultUrl  = URL.createObjectURL(blob);
-          f.name       = baseName(f.file.name) + '.pdf';
-          ok++;
-          card?.classList.add('done');
-        } catch (e) { fail++; console.error(e); }
-        finally { card?.classList.remove('processing'); }
+    }
+
+    // Finalize
+    if (pagesCreated > 0) {
+      const blob = pdf.output('blob');
+      // Store on a virtual "combined" item for download
+      items.forEach(x => {
+        if (x.resultUrl) URL.revokeObjectURL(x.resultUrl);
+        x.resultUrl = null;
+        x.resultBlob = null;
+      });
+      // Attach to first item
+      if (items[0]) {
+        items[0].resultBlob = blob;
+        items[0].resultUrl = URL.createObjectURL(blob);
+        items[0].name = 'combined.pdf';
+        items[0].isCombined = true;
       }
+    }
+
+    totalPagesGenerated = pagesCreated;
+    return { ok, fail, pages: pagesCreated };
+  }
+
+  /* ==================== Convert Images Only (non-PDF) ==================== */
+  async function convertImagesOnly() {
+    const imgItems = items.filter(i => i.type === 'image');
+    const total = imgItems.length;
+    let step = 0, ok = 0, fail = 0;
+
+    for (const item of imgItems) {
+      const card = filesGrid.querySelector(`[data-id="${item.id}"]`);
+      card?.classList.add('processing');
+      card?.classList.remove('done');
+      setProgress(step, total, LANG === 'ar' ? 'معالجة صورة...' : 'Processing image...', '');
+      await yieldToUI();
+      try {
+        await convertImage(item);
+        ok++;
+        card?.classList.add('done');
+      } catch (e) { fail++; console.error(e); }
+      finally { card?.classList.remove('processing'); }
+      step++;
+      setProgress(step, total);
+      await yieldToUI();
     }
     return { ok, fail };
   }
 
-  /* ============ Convert all ============ */
+  /* ==================== Main Convert ==================== */
   async function convertAll() {
-    if (!files.length) return;
+    if (!items.length) return;
     convertBtn.disabled = true;
     downloadAllBtn.disabled = true;
-    const orig = convertBtn.innerHTML;
+
+    const origHTML = convertBtn.innerHTML;
     convertBtn.innerHTML = `<span style="opacity:.7">${t('converting')}</span>`;
 
-    let result;
+    showProgress();
+    setIndeterminate(t('converting'));
+
+    // Reset
+    pageWarn.classList.remove('show');
+    totalPagesGenerated = 0;
+    items.forEach(i => {
+      const card = filesGrid.querySelector(`[data-id="${i.id}"]`);
+      card?.classList.remove('done');
+    });
+
     try {
-      if (currentFormat === 'pdf') {
+      const hasText = items.some(i => i.type === 'text');
+      let result;
+      if (currentFormat === 'pdf' || hasText) {
         result = await convertAllToPDF();
       } else {
-        let ok = 0, fail = 0;
-        for (const f of files) {
-          const card = filesGrid.querySelector(`[data-id="${f.id}"]`);
-          card?.classList.add('processing');
-          card.classList.remove('done');
-          try { await convertOne(f); ok++; card?.classList.add('done'); }
-          catch (e) { fail++; console.error(e); }
-          finally { card?.classList.remove('processing'); }
-        }
-        result = { ok, fail };
+        result = await convertImagesOnly();
       }
-      convertBtn.innerHTML = orig;
+
+      convertBtn.innerHTML = origHTML;
       convertBtn.disabled = false;
       updateUI();
-      showToast(
-        result.fail ? t('partial', result.ok, result.fail) : t('okAll', result.ok),
-        result.fail ? 'error' : 'success'
-      );
+      hideProgress();
+
+      if (result.fail) {
+        showToast(t('partial', result.ok, result.fail), 'error');
+      } else {
+        const extra = result.pages ? ` · ${result.pages} ${LANG === 'ar' ? 'صفحة' : 'pages'}` : '';
+        showToast(t('okAll', result.ok) + extra, 'success');
+      }
     } catch (e) {
-      convertBtn.innerHTML = orig;
+      convertBtn.innerHTML = origHTML;
       convertBtn.disabled = false;
+      hideProgress();
       showToast(t('pdfFail'), 'error');
       console.error(e);
     }
   }
 
-  /* ============ Downloads ============ */
+  /* ==================== Downloads ==================== */
   function downloadBlob(url, name) {
     const a = document.createElement('a');
     a.href = url; a.download = name;
     document.body.appendChild(a); a.click(); a.remove();
   }
   function downloadAll() {
-    // Combined PDF mode
-    if (currentFormat === 'pdf' && document.getElementById('pdfCombined').checked) {
-      const f = files.find(x => x.resultBlob && x.name.endsWith('.pdf'));
-      if (!f) return showToast(t('needConvert'), 'error');
-      downloadBlob(f.resultUrl, f.name);
-      showToast(t('downloading', 1), 'success');
-      return;
+    // Combined PDF
+    if ((currentFormat === 'pdf' || items.some(i => i.type === 'text'))) {
+      const combinedItem = items.find(i => i.isCombined && i.resultUrl);
+      if (combinedItem) {
+        downloadBlob(combinedItem.resultUrl, 'combined.pdf');
+        showToast(t('downloading', 1), 'success');
+        return;
+      }
     }
-    const done = files.filter(f => f.resultBlob);
+    const done = items.filter(f => f.resultBlob && f.resultUrl);
     if (!done.length) return showToast(t('needConvert'), 'error');
     done.forEach((f, i) => setTimeout(() => downloadBlob(f.resultUrl, f.name), i * 200));
     showToast(t('downloading', done.length), 'success');
   }
 
-  /* ============ Events ============ */
-  document.getElementById('selectBtn').addEventListener('click', e => { e.stopPropagation(); fileInput.click(); });
+  /* ==================== Events ==================== */
+  $('selectBtn').addEventListener('click', e => { e.stopPropagation(); fileInput.click(); });
   dropzone.addEventListener('click', e => { if (e.target.id !== 'selectBtn') fileInput.click(); });
-  fileInput.addEventListener('change', e => { addFiles(e.target.files); fileInput.value = ''; });
+  fileInput.addEventListener('change', e => { addImageFiles(e.target.files); fileInput.value = ''; });
 
   ['dragenter','dragover'].forEach(ev => dropzone.addEventListener(ev, e => {
     e.preventDefault(); e.stopPropagation(); dropzone.classList.add('dragover');
@@ -958,14 +1371,14 @@
   ['dragleave','drop'].forEach(ev => dropzone.addEventListener(ev, e => {
     e.preventDefault(); e.stopPropagation(); dropzone.classList.remove('dragover');
   }));
-  dropzone.addEventListener('drop', e => { if (e.dataTransfer?.files) addFiles(e.dataTransfer.files); });
+  dropzone.addEventListener('drop', e => { if (e.dataTransfer?.files) addImageFiles(e.dataTransfer.files); });
   window.addEventListener('dragover', e => e.preventDefault());
   window.addEventListener('drop', e => e.preventDefault());
 
-  /* Format selector */
+  /* Format */
   document.getElementById('formatGrid').addEventListener('click', e => {
     const btn = e.target.closest('.format-btn');
-    if (!btn) return;
+    if (!btn || btn.disabled) return;
     document.querySelectorAll('.format-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     currentFormat = btn.dataset.format;
@@ -975,16 +1388,14 @@
     const isBMP = currentFormat === 'bmp';
 
     pdfSection.classList.toggle('show', isPDF);
-    // Show compression settings for lossy formats only
     compressSection.classList.toggle('show', !isPNG && !isBMP);
-    // Auto-disable target mode for PNG
     if (isPNG && compressionMode === 'target') {
       document.querySelector('.mode-tab[data-mode="quality"]')?.click();
     }
     if (isPDF) loadJsPDF().catch(() => {});
   });
 
-  /* Compression mode tabs */
+  /* Mode tabs */
   document.getElementById('modeTabs').addEventListener('click', e => {
     const tab = e.target.closest('.mode-tab');
     if (!tab) return;
@@ -992,7 +1403,7 @@
     tab.classList.add('active');
     compressionMode = tab.dataset.mode;
     qualityMode.style.display = compressionMode === 'quality' ? 'block' : 'none';
-    targetMode.style.display  = compressionMode === 'target'  ? 'block' : 'none';
+    targetMode.style.display = compressionMode === 'target' ? 'block' : 'none';
     percentMode.style.display = compressionMode === 'percent' ? 'block' : 'none';
   });
 
@@ -1011,7 +1422,7 @@
   /* Main buttons */
   convertBtn.addEventListener('click', convertAll);
   downloadAllBtn.addEventListener('click', downloadAll);
-  clearBtn.addEventListener('click', () => { if (files.length && confirm(t('confirmClear'))) clearAll(); });
+  clearBtn.addEventListener('click', () => { if (items.length && confirm(t('confirmClear'))) clearAll(); });
 
   /* Footer year */
   document.querySelectorAll('.year').forEach(el => el.textContent = new Date().getFullYear());
